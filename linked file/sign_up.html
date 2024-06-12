@@ -135,7 +135,7 @@
     </style>
 </head>
 <body >
-    <form action="/signup" method="post" id="signupForm" >
+    <form action="/sign_up.html" method="post" id="signupForm" >
         <div class="container">
             <p id="fpara">Create an Account</p>
             <div class="name">
@@ -171,7 +171,7 @@
             const email = document.getElementById('email').value;
             const password = document.getElementById('pass').value;
 
-            fetch('http://localhost:3000/signup', {
+            fetch('/sign_up.html', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
