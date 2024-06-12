@@ -31,7 +31,7 @@ const htmlFilePath = path.join(__dirname, '..', 'linked file');
  //   res.sendFile(path.join(htmlFilePath,'sign_up.html'))
 //})
 
-router.post('/signup', (req, res) => {
+router.post('/sign_up.html', (req, res) => {
 const {fname,lname,username,email} = req.body
 const pass = req.body.pass
     const saltRounds = 10;
